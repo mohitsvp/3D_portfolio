@@ -47,7 +47,7 @@ const Navbar = () => {
               <a href={`#${link.id}`}>{link.title}</a>
             </li>
           ))}
-            <li><a href="https://drive.google.com/file/d/1ts9U8oymAM2Ve4ELhfOMqlJ8wje7hdpe/view?usp=sharing" className="text-secondary hover:text-white text-[18px] font-medium cursor-pointer" target="_blank">Resume</a></li>
+            <li><a href="https://drive.google.com/file/d/19To9RokmGoXARDQ7smDdLc1wMD9T5efr/view?usp=sharing" className="text-secondary hover:text-white text-[18px] font-medium cursor-pointer" target="_blank">Resume</a></li>
         </ul>
         <div className="sm:hidden flex flex-1 justify-end items-center">
           <img src={toggle? close:menu} alt="menu" className="w-[28px] h-[28px] object-contain cursor-pointer" onClick={() => setToggle(!toggle)}/>
@@ -67,7 +67,7 @@ const Navbar = () => {
               <a href={`#${link.id}`}>{link.title}</a>
             </li>
           ))}
-          <li><a href="https://drive.google.com/drive/folders/1ZczDKo6MN8eE8bG2FyfIhE6GAVoASW1N?usp=sharing" className="text-secondary hover:text-white text-[18px] font-medium cursor-pointer" target="_blank">Resume</a></li>
+          <li><a href="https://drive.google.com/file/d/19To9RokmGoXARDQ7smDdLc1wMD9T5efr/view?usp=sharing" className="text-secondary hover:text-white text-[18px] font-medium cursor-pointer" target="_blank">Resume</a></li>
         </ul>
           </div>
         </div>
